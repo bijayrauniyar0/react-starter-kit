@@ -5,6 +5,19 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "@Assets/*": ["assets/*"],
+      "@Components/*": ["components/*"],
+      "@Hooks/*": ["hooks/*"],
+      "@Views/*": ["views/*"],
+      "@Services/*": ["services/*"],
+      "@Utils/*": ["utils/*"],
+      "@Types/*": ["types/*"],
+      "@Constants/*": ["constants/*"],
+      
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -20,5 +33,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [".eslint.config.js", "src", "src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
