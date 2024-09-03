@@ -117,11 +117,13 @@ This project utilizes Redux for state management, providing a predictable way to
 
 The Redux store is configured in the `store` directory, where you can define your slices and combine them to create the root reducer.
 
+``` bash
 /store
 ├── hooks.ts                
 ├── index.ts                
 ├── slices                  
 
+```
 ### Custom Typed Hooks
 
 To simplify the usage of Redux in your components, custom typed hooks are created for dispatching actions and selecting state.
@@ -180,15 +182,15 @@ The `commit-msg` hook enforces the following commit message format:
 
 This setup ensures a consistent commit history and adherence to best practices.
 
-## Components
+# Components
 
 The ready to use components and its way of usage is listed below:
 
-### Icon Component
+## Icon Component
 
 The `Icon` component is a reusable component designed to render Material Icons with customizable properties. It accepts the following props:
 
-#### Props
+### Props
 
 - **`name`** (`string`): The name of the icon to display (required).
 - **`className`** (`string`, optional): Additional CSS classes for styling the icon.
@@ -197,19 +199,17 @@ The `Icon` component is a reusable component designed to render Material Icons w
 
 #### Usage
 
-The `Icon` component wraps the specified icon name in an `<i>` element, allowing for easy integration of Material Icons. It also includes accessibility features such as `role="button"` and `tabIndex={0}` to ensure that the component is interactive and keyboard navigable.
-
-#### Example
+Here is the example usage
 
 ```jsx
 <Icon name="home" className="custom-class" onClick={() => alert('Icon clicked!')} />
 
 ```
-### Button Component
+## Button Component
 
 The `Button` component is built using Radix UI and is designed to provide a customizable and accessible button interface. It leverages the `class-variance-authority` for handling variants and sizes.
 
-#### Features
+### Features
 
 - **Variants**: Supports multiple button styles, including:
   - **Default**: Primary styled button.
@@ -225,7 +225,7 @@ The `Button` component is built using Radix UI and is designed to provide a cust
   - **Large**: Larger button variant.
   - **Icon**: Size for icon-only buttons.
 
-#### Props
+### Props
 
 The `Button` component accepts the following props:
 
@@ -234,7 +234,7 @@ The `Button` component accepts the following props:
 - **`asChild`** (`boolean`, optional): If true, the button will render as a child component instead of a button element.
 - Other standard button attributes like `onClick`, `disabled`, etc.
 
-#### Usage
+### Usage
 
 Here's an example of how to use the `Button` component:
 
@@ -246,18 +246,18 @@ import { Button } from "@/components/Button";
 </Button>
 ```
 
-### Input Component
+## Input Component
 
 The `Input` component is a customizable input field designed for use in forms. It provides a clean and accessible interface while leveraging utility functions for styling.
 
-#### Props
+### Props
 
 The `Input` component accepts all standard HTML input attributes, such as:
 
 - **`type`** (`string`, optional): Specifies the type of input (e.g., `text`, `password`, `email`, etc.).
 - Other standard input attributes like `placeholder`, `onChange`, `value`, etc.
 
-#### Features
+### Features
 
 - **Styling**: The input field includes built-in styles for:
   - Height and width.
@@ -267,7 +267,7 @@ The `Input` component accepts all standard HTML input attributes, such as:
   
 - **Accessibility**: The component is designed to be keyboard navigable and works with screen readers.
 
-#### Usage
+### Usage
 
 Here's an example of how to use the `Input` component:
 
@@ -278,11 +278,11 @@ import { Input } from "@/components/Input";
 
 ```
 
-### Tooltip Component
+## Tooltip Component
 
 The `Tooltip` component provides a convenient way to display additional information when hovering over or clicking an icon. It utilizes Radix UI for a robust and accessible tooltip experience.
 
-#### Props
+### Props
 
 The `Tooltip` component accepts the following props:
 
@@ -293,13 +293,13 @@ The `Tooltip` component accepts the following props:
 - **`iconClick`** (`function`, optional): A callback function that is triggered when the icon is clicked.
 - **`preventDefault`** (`boolean`, optional): If `true`, prevents the default click behavior (default: `true`).
 
-#### Features
+### Features
 
 - **Icon Integration**: The component displays an icon with a tooltip that can be triggered by clicking or hovering.
 - **Customizable Styling**: You can easily customize the appearance of the icon and tooltip message with additional CSS classes.
 - **Accessibility**: Built using Radix UI for better accessibility and keyboard navigation.
 
-#### Usage
+### Usage
 
 Here's an example of how to use the `Tooltip` component:
 
