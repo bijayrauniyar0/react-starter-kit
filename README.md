@@ -56,7 +56,7 @@ The app should now be running on http://localhost:3000.
 
 ## Project Structure
 
-src/
+```bash src
 ├── assets/                
 |    └── styles/          
 |    └── images/           
@@ -67,7 +67,8 @@ src/
 ├── routes/                
 ├── services/              
 ├── store/                       
-└── utils/                 
+└── utils/     
+```            
 
 ## Available Scripts
 
