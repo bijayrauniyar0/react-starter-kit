@@ -57,17 +57,17 @@ The app should now be running on http://localhost:3000.
 ## Project Structure
 
 src/
-├── assets/                # Static assets
-|    └── styles/           # Global styles and Tailwind CSS configuration
-|    └── images/           # images
-├── components/            # Main components directory
-│   ├── common/            # Common reusable components(Icons, Searchbar, many more)
-│   └── radix/             # Components using Radix UI (shadcn)
-├── views/                 # Application pages (for React Router)
-├── routes/                # Route configurations
-├── services/              # API service functions
-├── store/                 # Redux store setup       
-└── utils/                 # Utility functions
+├── assets/                
+|    └── styles/          
+|    └── images/           
+├── components/            
+│   ├── common/            
+│   └── radix/             
+├── views/                 
+├── routes/                
+├── services/              
+├── store/                       
+└── utils/                 
 
 ## Available Scripts
 
@@ -117,9 +117,9 @@ This project utilizes Redux for state management, providing a predictable way to
 The Redux store is configured in the `store` directory, where you can define your slices and combine them to create the root reducer.
 
 /store
-├── hooks.ts                # Typed hooks for dispatch and selector
-├── index.ts                # Combine reducers and export the store
-├── slices                  # Redux slices directory
+├── hooks.ts                
+├── index.ts                
+├── slices                  
 
 ### Custom Typed Hooks
 
