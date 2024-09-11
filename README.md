@@ -28,6 +28,7 @@ If you prefer to use npm instead of Yarn, please follow these steps:
 
 1. **Remove Yarn lock file:** Delete the `yarn.lock` file from your project directory.
 2. **Install dependencies using npm:** Run the following command to install dependencies with npm:
+
 ```bash
    npm install
 
