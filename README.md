@@ -5,7 +5,7 @@ Welcome to my custom React TypeScript Starter Kit! 🚀 This kit is designed to 
 ## Features
 
 - **TypeScript**: Strong typing with TypeScript to help catch errors early and improve code quality.
-- **Radix UI (shadcn)**: Pre-configured with Radix UI components, providing a set of accessible and customizable components.
+- **Radix UI (shadcn)**: Pre-configured with Radix UI components, providing a set of accessible and customizable      components.
 - **React Router**: App routes setup using React Router for easy navigation across your application.
 - **Material Symbols**: Icon setup using Material Symbols (Materialized Icons) for consistent and beautiful icons.
 - **Redux Toolkit**: State management using Redux Toolkit, offering an intuitive API and simplified Redux setup.
@@ -44,14 +44,14 @@ If you prefer to use npm instead of Yarn, please follow these steps:
 ```
 2. **Install dependencies:**
 ```bash
-Copy code
-yarn install
+    Copy code
+    yarn install
 
 ```
 3. **Start the development server:**
 ```bash
-Copy code
-yarn dev
+    Copy code
+    yarn dev
 ```
 The app should now be running on http://localhost:3000.
 
