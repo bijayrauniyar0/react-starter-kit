@@ -109,7 +109,6 @@ export default appRoutes;
 
 
 ```
-
 ## Redux Setup
 
 This project utilizes Redux for state management, providing a predictable way to manage application state. The Redux store, hooks, and slices are set up to enhance the overall development experience.
