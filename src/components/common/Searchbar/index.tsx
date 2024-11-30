@@ -1,4 +1,4 @@
-import { Input } from '@/components/radix/input';
+import { Input } from '@Components/radix/input';
 import Icon from '../Icon';
 
 interface SearchbarProps {

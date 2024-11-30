@@ -1,4 +1,4 @@
-import { Button } from '@/components/radix/button';
+import { Button } from '@Components/radix/button';
 import { toast } from 'react-toastify';
 import { ProgressBar } from 'react-custom-progress-bar';
 const Home = () => {
