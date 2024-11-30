@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { cn } from "@/utils"
+import { cn } from "@Utils/index"
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface InputProps
