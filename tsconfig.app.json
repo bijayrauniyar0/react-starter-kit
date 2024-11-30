@@ -27,7 +27,7 @@
     "downlevelIteration": true,
     "allowImportingTsExtensions": true,
     "moduleDetection": "force",
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
